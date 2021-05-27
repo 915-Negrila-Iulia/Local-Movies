@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WatchList</title>
+</head>
+<body>
+<table border="1">
+<tr>
+<td>Title</td>
+<td>Genre</td>
+<td>Year</td>
+<td>Likes</td>
+<td>Trailer</td>
+</tr>
+<tr><td>Schindler's List</td>
+<td>Drama</td>
+<td>1993</td>
+<td>400</td>
+<td><a href="https://www.youtube.com/watch?v=mxphAlJID9U">Link</a></td>
+</tr><tr><td>Joker</td>
+<td>Thriller</td>
+<td>2019</td>
+<td>404</td>
+<td><a href="https://www.youtube.com/watch?v=zAGVQLHvwOY">Link</a></td>
+</tr></table>
+</body>
+</html>

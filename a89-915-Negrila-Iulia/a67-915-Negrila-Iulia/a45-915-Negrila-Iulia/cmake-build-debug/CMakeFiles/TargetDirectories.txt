@@ -1,0 +1,4 @@
+C:/Users/user1/Documents/GitHub/a10-915-Negrila-Iulia-1/a89-915-Negrila-Iulia/a67-915-Negrila-Iulia/a45-915-Negrila-Iulia/cmake-build-debug/CMakeFiles/a45-915-Negrila-Iulia.dir
+C:/Users/user1/Documents/GitHub/a10-915-Negrila-Iulia-1/a89-915-Negrila-Iulia/a67-915-Negrila-Iulia/a45-915-Negrila-Iulia/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user1/Documents/GitHub/a10-915-Negrila-Iulia-1/a89-915-Negrila-Iulia/a67-915-Negrila-Iulia/a45-915-Negrila-Iulia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/user1/Documents/GitHub/a10-915-Negrila-Iulia-1/a89-915-Negrila-Iulia/a67-915-Negrila-Iulia/a45-915-Negrila-Iulia/cmake-build-debug/CMakeFiles/a45-915-Negrila-Iulia_autogen.dir
