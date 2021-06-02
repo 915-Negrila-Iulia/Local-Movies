@@ -86,6 +86,7 @@ CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/in
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h
+CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/QStandardItem
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h
@@ -106,6 +107,7 @@ CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/in
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h
+CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qtextcursor.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qtextformat.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qtextoption.h
@@ -119,6 +121,7 @@ CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/in
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QFormLayout
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
+CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QHeaderView
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLayout
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLineEdit
@@ -138,6 +141,7 @@ CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/in
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qformlayout.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
+CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qheaderview.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
 CMakeFiles/a45-915-Negrila-Iulia.dir/gui/gui.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h

@@ -6,8 +6,10 @@
 #include <QLabel>
 #include <string>
 #include <QMessageBox>
+#include <QStandardItem>
 #include "movies_table_model.h"
 #include "../user_data/html_watch_list.h"
+#include <QHeaderView>
 
 GUI::GUI(Service &s) : service{s} {
     this->init_GUI();
@@ -24,8 +26,9 @@ void GUI::init_GUI() {
 
     this->movies_table_user = new QTableView{};
 
-    MoviesTableModel *model = new MoviesTableModel(this->service.get_watch_list());
-    this->movies_table_user->setModel(model);
+    this->model = new MoviesTableModel(this->service.get_watch_list());
+    this->movies_table_user->setModel(this->model);
+
 
     this->title_line_admin = new QLineEdit{};
     this->genre_line_admin = new QLineEdit{};
@@ -65,6 +68,7 @@ void GUI::init_GUI() {
     user_layout->addWidget(this->user_label);
     //user_layout->addWidget(this->movies_list_user);
     user_layout->addWidget(this->movies_table_user);
+    this->movies_table_user->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
     QFormLayout *admin_movies_details = new QFormLayout{};
 
@@ -158,8 +162,7 @@ void GUI::connect_signals_slots() {
 
     QObject::connect(this->update_button_admin, &QPushButton::clicked, this, &GUI::update_movie_admin);
 
-
-    QObject::connect(this->movies_list_user, &QListWidget::itemSelectionChanged, [this]() {
+    QObject::connect(this->movies_table_user, &QTableView::clicked, [this]() {
         int selected_index = this->get_selected_index_user();
 
         if (selected_index < 0) {
@@ -304,11 +307,12 @@ void GUI::display_movies_user() {
     for (auto &&m: this->service.get_movies_in_watch_list())
         this->movies_list_user->addItem(
                 QString::fromStdString(m.get_title() + " " + std::to_string(m.get_year_of_release())));
+
 }
 
 int GUI::get_selected_index_user() const {
 
-    QModelIndexList selected_indexes = this->movies_table_user->selectionModel()->selectedIndexes();
+    auto selected_indexes = this->movies_table_user->selectionModel()->selectedIndexes();
 
     if (selected_indexes.size() == 0) {
         this->title_line_user->clear();
@@ -345,6 +349,8 @@ void GUI::add_movie_user() {
     }
 
     this->display_movies_user();
+    this->model = new MoviesTableModel(this->service.get_watch_list());
+    this->movies_table_user->setModel(this->model);
 
     int last_movie = this->service.get_movies_in_watch_list().size() - 1;
     this->movies_list_user->setCurrentRow(last_movie);
@@ -378,6 +384,8 @@ void GUI::delete_movie_user() {
                                              m.get_number_of_likes() + 1, m.get_trailer());
 
     this->display_movies_user();
+    this->model = new MoviesTableModel(this->service.get_watch_list());
+    this->movies_table_user->setModel(this->model);
 
 }
 
@@ -476,6 +484,12 @@ void GUI::init_style(){
     movies_list_user->setStyleSheet("font: 9pt \"MS Shell Dlg 2\";\n"
                                     "border: 5px solid rgba(147, 151, 255, 255);\n"
                                     "border-radius: 10px;");
+    movies_table_user->setStyleSheet("font: 9pt \"MS Shell Dlg 2\";\n"
+                                     "border: 5px solid rgba(147, 151, 255, 255);\n"
+                                     "border-radius: 10px;\n");
+    this->movies_table_user->horizontalHeader()->setStyleSheet("border: none;");
+    this->movies_table_user->verticalHeader()->setStyleSheet("border: none;");
+
 }
 
 void GUI::button_style_admin(QPushButton *button) {

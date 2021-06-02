@@ -59,6 +59,8 @@ Qt::ItemFlags MoviesTableModel::flags(const QModelIndex &index) const {
 }
 
 bool MoviesTableModel::setData(const QModelIndex &index, const QVariant &value, int role) {
+
     return QAbstractItemModel::setData(index, value, role);
 }
+
 

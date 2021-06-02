@@ -83,6 +83,7 @@ int main(int argc, char *argv[]) {
                     Movie("The pianist", "Drama", 2002, 300, "https://www.youtube.com/watch?v=BFwGqLa_oAo"));
 
             GUI gui{service};
+            gui.setWindowTitle("So many movies, so little time");
             gui.show();
 
             return a.exec();

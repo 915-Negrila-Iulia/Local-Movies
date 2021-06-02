@@ -19,6 +19,7 @@ private:
     QListWidget *movies_list_admin;
     QListWidget *movies_list_user;
 
+    MoviesTableModel *model;
     QTableView *movies_table_user;
 
     QLineEdit *title_line_admin, *genre_line_admin, *year_line_admin,
