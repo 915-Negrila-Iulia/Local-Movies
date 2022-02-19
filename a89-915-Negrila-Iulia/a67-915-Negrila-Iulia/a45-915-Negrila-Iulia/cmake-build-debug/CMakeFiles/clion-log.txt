@@ -1,4 +1,17 @@
 "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\user1\Documents\GitHub\a10-915-Negrila-Iulia-1\a89-915-Negrila-Iulia\a67-915-Negrila-Iulia\a45-915-Negrila-Iulia
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/user1/Documents/GitHub/a10-915-Negrila-Iulia-1/a89-915-Negrila-Iulia/a67-915-Negrila-Iulia/a45-915-Negrila-Iulia/cmake-build-debug
+CMake Error at CMakeLists.txt:16 (find_package):
+  Could not find a package configuration file provided by "QT" with any of
+  the following names:
+
+    Qt6Config.cmake
+    qt6-config.cmake
+    Qt5Config.cmake
+    qt5-config.cmake
+
+  Add the installation prefix of "QT" to CMAKE_PREFIX_PATH or set "QT_DIR" to
+  a directory containing one of the above files.  If "QT" provides a separate
+  development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/user1/Documents/GitHub/a10-915-Negrila-Iulia-1/a89-915-Negrila-Iulia/a67-915-Negrila-Iulia/a45-915-Negrila-Iulia/cmake-build-debug/CMakeFiles/CMakeOutput.log".
